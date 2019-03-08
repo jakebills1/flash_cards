@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>Flash Cards</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Flash Cards</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#" id="new">New Card</a></li>
+          <li><a href="#" id="see-all-cards">See All Cards</a></li>
+        </ul>
+      </div>
+    </nav>
+  <div class="container" style="display: flex;">
+    <div class="card">
+      <div class="card-content">
+        <p id="question"><i class="fas fa-question fa-2x"></i>What are the two new variable types introduced in ES6?</p>
+        <p id="answer">Let and const</p>
+      </div>
+      <div class="card-action">
+        <a href="#" id="flip-card">Flip card</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <p>Card content</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Flip card</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <p>Card content</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Flip card</a>
+      </div>
+    </div>
+  </div>  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
