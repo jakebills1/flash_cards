@@ -15,24 +15,60 @@
       </ul>
     </div>
   </nav>
-  <div class="container" style="display: flex;">
-    <div class="card">
+  <div class="container" style="display: flex; flex-wrap: wrap;">
+
+    <div class="card ">
       <div class="card-content">
         <p class="question"><i class="fas fa-question fa-2x"></i>What are the two new variable types introduced in ES6?</p>
         <p class="answer hide">A: Let and const</p>
       </div>
       <div class="card-action">
         <a href="#" id="flip-card">Flip card</a>
+        <a href="#" id="delete-card">Delete Card</a>
       </div>
     </div>
-  </div> 
-  <div id="form">
-   <label for="Q">Question</label>
-   <input type="text" id="Q">
-   <label for="A">Answer</label>
-   <input type="text" id="A">
-   <button id="submit">Submit</button>
-  </div> 
+    <div class="card " >
+      <div class="card-content">
+        <p class="question"><i class="fas fa-question fa-2x"></i>What is the scope of a let variable?</p>
+        <p class="answer hide">A: It is scoped to the nearest set of curly brackets.</p>
+      </div>
+      <div class="card-action">
+        <a href="#" id="flip-card">Flip card</a>
+        <a href="#" id="delete-card">Delete Card</a>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-content">
+        <p class="question"><i class="fas fa-question fa-2x"></i>What is the purpose of default parameters?</p>
+        <p class="answer hide">A: Making sure a function called with no parameters will not return an error.</p>
+      </div>
+      <div class="card-action">
+        <a href="#" id="flip-card">Flip card</a>
+        <a href="#" id="delete-card">Delete Card</a>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-content">
+        <p class="question"><i class="fas fa-question fa-2x"></i>True or false: const variables are muteable, but not reassigneable.</p>
+        <p class="answer hide">A: True</p>
+      </div>
+      <div class="card-action">
+        <a href="#" id="flip-card">Flip card</a>
+        <a href="#" id="delete-card">Delete Card</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="container">
+    <p><strong>Add a card:</strong></p>
+    <div id="form">
+     <label for="Q">Question</label>
+     <input type="text" id="Q">
+     <label for="A">Answer</label>
+     <input type="text" id="A">
+     <button id="submit">Submit</button>
+    </div>
+  </div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
